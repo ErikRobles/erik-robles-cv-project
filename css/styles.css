@@ -43,6 +43,13 @@ a {
 
 .middle-container {
   margin-bottom: 100px;
+  padding-top: 50px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+  padding-bottom: 100px;
 }
 
 .bottom-container {
