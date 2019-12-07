@@ -86,12 +86,28 @@ a {
   color: #fff;
   text-decoration: none;
   background-color: #11cdd4;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#11cdd4),
+    to(#11999e)
+  );
+  background-image: -o-linear-gradient(#11cdd4, #11999e);
   background-image: linear-gradient(#11cdd4, #11999e);
   border-radius: 8px;
 }
 
 .btn:hover {
   background-color: #30e3cb;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#30e3cb),
+    to(#2bc4ad)
+  );
+  background-image: -o-linear-gradient(#30e3cb, #2bc4ad);
   background-image: linear-gradient(#30e3cb, #2bc4ad);
 }
 
