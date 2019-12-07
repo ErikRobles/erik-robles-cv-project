@@ -31,6 +31,10 @@ a {
   color: #11999e;
 }
 
+.fa:hover {
+  color: #eaf6f6;
+}
+
 .programmer {
   font-weight: normal;
 }
@@ -81,9 +85,14 @@ a {
   padding: 15px 25px 15px 25px;
   color: #fff;
   text-decoration: none;
-  background-color: #66bfbf;
-  background-image: linear-gradient(#66bfbf, #46abab);
+  background-color: #11cdd4;
+  background-image: linear-gradient(#11cdd4, #11999e);
   border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: #30e3cb;
+  background-image: linear-gradient(#30e3cb, #2bc4ad);
 }
 
 .top-cloud {
